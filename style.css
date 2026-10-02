@@ -25,7 +25,27 @@ nav{display:flex;gap:24px}nav a{font-size:12px;color:var(--text);transition:.25s
 .tags{display:flex;flex-wrap:wrap;gap:6px}.tags span{border:1px solid var(--border);padding:4px 8px;font-size:9px;color:var(--muted)}
 .results{display:flex;gap:55px;margin-top:30px;padding-top:21px;border-top:1px solid var(--border)}.results div{display:flex;flex-direction:column}.results small{font-size:9px;color:var(--muted)}.results b{font-size:19px}
 .experience-group{margin-bottom:58px}.group-label{padding-bottom:17px;border-bottom:1px solid var(--border);margin-bottom:28px}
-.timeline-item{display:grid;grid-template-columns:150px 1fr;gap:45px;padding:0 0 48px 20px;border-left:1px solid var(--border);position:relative}.timeline-item:before{content:"";position:absolute;left:-4px;top:5px;width:7px;height:7px;border-radius:50%;background:var(--blue)}.timeline-date{color:var(--muted);font-size:10px;letter-spacing:1px}.timeline-item h3{font-size:24px;margin:7px 0 11px}.muted{color:var(--text);font-size:13px;margin-bottom:17px}
+.timeline-item{display:grid;grid-template-columns:150px 1fr;gap:45px;padding:0 0 48px 20px;border-left:1px solid var(--border);position:relative}.timeline-item:before{content:"";position:absolute;left:-4px;top:5px;width:7px;height:7px;border-radius:50%;background:var(--blue)}.timeline-date{color:var(--muted);font-size:10px;letter-spacing:1px}.timeline-item h3{font-size:24px;margin:7px 0 11px}.muted{color:var(--text);font-size:13px;margin-bottom:17px}.experience-bullets{
+  list-style:none;
+  margin:0 0 20px;
+  padding:0;
+  color:var(--text);
+  font-size:13px;
+}
+
+.experience-bullets li{
+  position:relative;
+  padding-left:17px;
+  margin:8px 0;
+  line-height:1.65;
+}
+
+.experience-bullets li::before{
+  content:"•";
+  position:absolute;
+  left:0;
+  color:var(--blue);
+}
 .achievement-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.achievement{padding:27px;border:1px solid var(--border)}.achievement span{color:var(--blue);font-size:9px;letter-spacing:1.5px}.achievement h3{font-size:19px;line-height:1.35;margin:10px 0}.achievement p{color:var(--text);font-size:13px}
 .skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.skill-block{border-top:1px solid var(--border);padding-top:22px}.skill-block h3{font-size:17px;margin-bottom:16px}.skill-block ul{list-style:none;color:var(--text);font-size:13px}.skill-block li{margin:7px 0}
 .cert-list{margin-top:65px;border-top:1px solid var(--border)}.cert-list div{display:flex;justify-content:space-between;gap:20px;padding:17px 0;border-bottom:1px solid var(--border);font-size:13px}.cert-list span{color:var(--text)}
