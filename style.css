@@ -182,3 +182,44 @@ footer{max-width:1200px;margin:auto;padding:27px 30px;display:flex;justify-conte
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================
+   FULL PORTFOLIO CTA
+   ========================================= */
+
+.portfolio-cta {
+  max-width: 900px;
+  margin: 100px auto 50px;
+  padding: 55px 40px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-align: center;
+  background: var(--card);
+}
+
+.portfolio-cta h2 {
+  margin: 8px 0 14px;
+  font-size: 32px;
+}
+
+.portfolio-cta p:not(.category) {
+  max-width: 600px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+}
+
+.portfolio-link {
+  display: inline-block;
+  padding: 13px 26px;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.portfolio-link:hover {
+  opacity: 0.75;
+  transform: translateY(-2px);
+}
